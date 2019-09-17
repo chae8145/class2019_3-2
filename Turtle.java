@@ -1,11 +1,10 @@
 package kr.ac.daelim.uml.zoo;
 
-public class Eagle extends Animal {
+public class Turtle extends Animal{
 	
-	public Eagle() {
-	
-		cry = new BirdCry();
-		fly = new FlyWithWings();
+	public Turtle() {
+		cry = new TurtleCry();
+		fly = new FlyNoWay();
 	}
 	
 	public void performCry() {
@@ -19,7 +18,6 @@ public class Eagle extends Animal {
 	@Override
 	public void display() {
 		// TODO Auto-generated method stub
-		System.out.println("독수리");
 		
 	}
 

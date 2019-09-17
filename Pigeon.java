@@ -1,13 +1,12 @@
 package kr.ac.daelim.uml.zoo;
 
-public class Eagle extends Animal {
+public class Pigeon extends Animal{
 	
-	public Eagle() {
-	
-		cry = new BirdCry();
+	public Pigeon() {
+		cry = new PigeonCry();
 		fly = new FlyWithWings();
 	}
-	
+
 	public void performCry() {
 		cry.cry();
 	}
@@ -15,11 +14,10 @@ public class Eagle extends Animal {
 	public void performFly() {
 		fly.fly();
 	}
-
+	
 	@Override
 	public void display() {
 		// TODO Auto-generated method stub
-		System.out.println("독수리");
 		
 	}
 
